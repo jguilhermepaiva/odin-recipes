@@ -4,6 +4,7 @@ img{
 
 *{
     font-family: "Arial", serif;
+    box-sizing: border-box;
 }
 
 h1{
@@ -29,11 +30,15 @@ h1{
 }
 .recipes-list{
     background: lightblue;
-    padding: 30px;
+    padding: 50px;
     border-radius: 15px;
-    width: 100%;
+    width: 300px;
+    margin: auto;
 }
 
+.recipes-list li{
+    font-size: 22px;
+}
 
 li{
     font-size: 20px;
@@ -57,4 +62,15 @@ li{
     background: lightblue;
     border-radius: 15px;
     padding: 20px;
+}
+
+.index-container{
+    text-align: center;
+}
+
+.back{
+    background-color: lightseagreen;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
 }
